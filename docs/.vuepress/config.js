@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/guide/',
+  base: '/MiaoDi/',
   title: '喵滴',
   head: [
     ['link', {
@@ -60,6 +60,6 @@ function getNavbar(prefix, guide, changelog, download) {
   return [
     { text: guide, link: `${prefix}guide/` },
     { text: changelog, link: `${prefix}changelog.html` },
-    { text: download, link: `${prefix}download.md` },
+    { text: download, link: `${prefix}download.html` },
   ]
 }

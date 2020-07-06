@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -u origin master
+git push -f git@github.com:Libv-MiaD/MiaoDi.git master:gh-pages
 
 cd -
